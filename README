@@ -1,0 +1,31 @@
+*********************************************************
+****  #######                        #######   RC 1  ****
+**** ##                             ##     ##        ****
+**** ##         ####  #####  #   #  ##     ##  ##### ****
+**** ######    ## ## ##     ##  ##  ########  ##     ****
+**** ##       ######  ####   ####   ##     ## #####  ****
+**** ##       ##  ##     ##   ##    ##     ## ##     ****
+**** ######## ##  ## #####    ##    ########  ##     ****
+*********************************************************
+**** EasyBf **** An EasyBrainfuck Interpreter ***********
+*********************************************************
+
+SYNOPSIS: easybf [FLAGS] <EasyBrainfuck File>
+
+DESCRIPTION:
+   -h
+      Help, displays help info
+   -d
+      Debug Mode, verbose, outputs all important debug information
+   -l
+      Licence, shows licensing info
+   -s
+      Specs, shows EasyBrainfuck Language Specifications
+
+REPORTING BUGS:
+   Report bugs to <dan11999922@hotmail.com>
+   Switch on the debug (-d) flag when showing program outputs
+
+NOTES:
+   Programs can only be 65534 characters long
+   Check source code for more information

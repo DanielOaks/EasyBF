@@ -1,0 +1,58 @@
+****************************************
+***** EasyBrainfuck Specifications *****
+****************************************
+** Operators ****
+ >    | Move the memory index pointer plus one higher
+ <    | Move the memory index pointer minus one lower
+
+ .    | Print data from the Current Index to the screen
+      |  prints a single space after numbers
+ ,    | Input data from the user to the Current Index
+
+ 0-9  | Add integers to the memory at the Current Index
+      |  (Can go from 0 to max cell value of the implimentation)
+ A-Z  | Add characters to the memory at the Current Index
+
+ +    | Add Index+1 to the Current Index, store in Current Index
+ -    | Minus Index+1 from the Current Index, store in Current Index
+ *    | Multiply Index+1 with the Current Index, store in Current Index
+ /    | Divide Index+1 from the Current Index, store in Current Index
+
+ @(#) | Copy the Current Index to index of #
+      |  (@(33) copies to the thirty-third memory index)
+ !(#) | Change memory index pointer to the one specified in #
+      |  (!(33) moves the memory index pointer to the 33rd place)
+
+ {}   | Loops, if Current Index is 0, break loop
+ []   | If Current Index is 0, skip between the brackets
+ #    | Comment out the current line to the end
+
+** Operators, cont ****
+ / - Divides are to round as accuratly as possible to integer values
+
+** Cells ****
+ The number of cells are implementation-defined, though should
+ have at least from -900 to 900 cells
+ 
+ Cells should be able to contain the values a-z, A-Z, and Integers
+ Integer values should range from at least -255 to 255,
+  higher values are recommended
+ Any other cell values are implementation-defined
+
+** Brackets ****
+ If a program contains unbalanced brackets, the program's behavior
+  is to be implementation-defined, whether printing an error message,
+  or attempting to run the program anyways
+
+** Language Examples ****
+ :Hello World:
+ Program: H>e>l>o>W>r>d<<<<<<.>.>..>.>.<.>>.<<<.>>>>.
+ Output : HelloWorld
+
+ :Countdown:
+ Program: 9>1<{.-}B.l.a.s.t.o.f..
+ Output : 9 8 7 6 5 4 3 2 1 Blastoff
+
+ :Fibonacci Sequence:
+ Program: 11>1>0>0>1.!(0){>>>+@(2)>@(3)<<.@(4)<<-}
+ Output : 1 1 2 3 5 8 13 21 34 55 89 144 

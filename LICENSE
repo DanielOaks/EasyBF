@@ -1,0 +1,34 @@
+LICENSE:
+   *******************************************************************
+   ** TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION  **
+   **************** EasyBf Copyright Danneh 2009-2010 ****************
+   * Redistribution and use in source and binary forms, with or      *
+   * without modification, are permitted provided that the following *
+   * conditions are met:                                             *
+   *                                                                 *
+   * * Redistributions may not be sold, nor may they be used in a    *
+   *    commercial product or activity.                              *
+   * * Redistributions in source code and/or in binary form must     *
+   *    reproduce the above copyright notice, this list of           *
+   *    conditions and the following disclaimer in the documentation *
+   *    and/or other materials provided with the distribution.       *
+   *                                                                 *
+   * This program is distributed in the hope that it will be useful, *
+   * but WITHOUT ANY WARRANTY,  EXPRESS OR IMPLIED; it is limited to *
+   * PRIVATE USE  and NOT SUBJECT TO  ANY FORM OF BINDING AGREEMENTS *
+   *******************************************************************
+
+AUTHOR:
+   Coded by Danneh <dan11999922@hotmail.com>
+   
+   Thanks to the following people:
+      Urban Müller for the original Brainfuck
+      JiveMasta for inspiring this project,
+         and helping spec the language
+      ZeekyHBomb for helping fix the screwy code,
+         and advice speccing this
+      t0rento for writing up an interpreter,
+         and for inspiting the help layout
+      Eudoxia for helping test this and being awesome
+      and everyone else who's helped write this language,
+      or shown interest in the project
