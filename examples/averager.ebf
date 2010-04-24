@@ -1,0 +1,18 @@
+" Averager
+This program prints the average integer of a number of input integers
+
+"
+
+2> 1>  # loops-to-go counter
+0> 1>  # loops-complete counter
+{
+   !(5)                    # go to scratch space
+   "Input an integer: " ,  # input to scratch
+   < +                     # add scratch to total
+   !(2) +                  # add to loops-complete
+   !(0) -                  # minus from loops-to-go
+}
+!(4) @(0)            # copy total to index 1
+!(2) @(1)            # copy loops-complete to index 2
+!(0) /               # divide total by loops-complete
+"The average is " .  # print the average

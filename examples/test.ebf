@@ -1,0 +1,58 @@
+#Testing Program
+#Written to aid interpreter tests
+"EasyBrainfuck Test Program
+Written to iron the bugs out of interpreters and compilers"
+
+
+
+#switching up and down
+"
+
+Switching Test
+"
+>> <<<< >>
+
+
+
+#special operators
+"
+
+Special Operators
+"
+!(-80) !(67) @(-7) @(8) !(0)
+
+
+
+#special operators, spacing
+"
+
+Special Operators - Spacing
+"
+!    (-80)	@	  	(4) !(0)
+
+
+
+#numbers and letters
+"
+
+Numbers and Letters
+"
+3 a 854 u 456 f 236 o 0
+
+
+
+#countdown
+"
+
+Simple Countdown
+"
+9>1<{.-}0@(1)" Blastoff!"
+
+
+
+#input
+"
+
+Input Test
+Please input a character: ",
+>1<+.+.+.+.+.0>0<

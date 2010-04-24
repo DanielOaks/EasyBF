@@ -1,0 +1,8 @@
+# Two Hello Worlds in EasyBrainfuck
+
+#First, the traditional approach
+H>e>l>o>W>r>d<<<<<<.>.>..>.>.<.>>.<<<.>>>>.
+
+#And next, the string approach
+"
+Hello World!"
